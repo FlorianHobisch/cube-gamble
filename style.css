@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: arial, 'lucida console', sans-serif;
+  background-image: url(watercolour-1325656.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  margin: auto;
+  margin-top: 10rem;
+  max-width: 70rem;
+  min-height: 40rem;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+.player-0 {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.player-0 h1 {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+.curent-player-0 {
+  margin-top: 10rem;
+  background: #00b4ff;
+  width: 10rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.player-1 {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.player-1 h1 {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+.curent-player-1 {
+  margin-top: 10rem;
+  background: #00b4ff;
+  width: 10rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.restart {
+  position: absolute;
+  left: 47%;
+  bottom: 75%;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  background: white;
+  background-color: transparent;
+}
+.roll {
+  position: absolute;
+  left: 47%;
+  bottom: 45%;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  background: white;
+  background-color: transparent;
+}
+.hold {
+  position: absolute;
+  left: 47%;
+  bottom: 40%;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  background: white;
+  background-color: transparent;
+}
+.cube {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -75%);
+  max-width: 6.5%;
+}
+.active {
+  background-color: #d3d3d3;
+}
